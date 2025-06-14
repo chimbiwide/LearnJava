@@ -112,49 +112,6 @@ A comprehensive collection of Java programs covering fundamental concepts throug
 - Progress to games: `Projects/RockPaperScissors.java`, `Projects/NumberGuessing.java`
 - Challenge yourself: `Projects/Quiz.java`, `Projects/Banking.java`
 
-## Getting Started
-
-### **Prerequisites**
-- Java Development Kit (JDK) 8 or higher
-- Basic text editor or IDE (VS Code, IntelliJ IDEA, Eclipse)
-- Command line familiarity (optional but helpful)
-
-### **Setup**
-1. Clone or download this repository
-2. Ensure Java is installed: `java -version`
-3. Navigate to the project directory
-4. Choose a file to run based on your learning goals
-
-## How to Run
-
-### **Compilation**
-```bash
-# Navigate to the file's directory
-cd Projects  # or Topics, or ObjectOriented/Constructors
-
-# Compile the Java file
-javac FileName.java
-
-# Run the compiled program
-java FileName
-```
-
-### **Example**
-```bash
-# To run the calculator
-cd Projects
-javac Calculator.java
-java Calculator
-
-# To run the arrays tutorial
-cd Topics
-javac arrays.java
-java arrays
-```
-
-### **IDE Usage**
-Most modern IDEs provide run buttons that handle compilation and execution automatically. Simply open the desired `.java` file and click the run button.
-
 ## File Descriptions
 
 ### **Projects Directory**
