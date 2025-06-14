@@ -183,5 +183,3 @@ Most modern IDEs provide run buttons that handle compilation and execution autom
 | `VariableScope.java` | Scope and variable lifetime | Local vs class variables, static concepts |
 
 ---
-
-*This repository represents a journey through Java programming fundamentals. Each file builds upon previous concepts while introducing new ideas. Happy coding!*
