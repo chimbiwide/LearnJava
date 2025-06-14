@@ -1,0 +1,18 @@
+package Projects;
+
+import java.util.Scanner;
+public class TempConvert {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double temp;
+        double converted;
+        String unit;
+        System.out.print("Enter temperature: ");
+        temp = scanner.nextDouble();
+        System.out.print("Convert to Celsius or Fahrenheit? (C or F): ");
+        unit = scanner.next().toUpperCase();
+        converted = (unit.equals("C")) ? (temp - 32) * 5/9 : (temp * 5/9) +32;
+        System.out.printf("Your converted temperature is %.2f°%s",converted,unit);
+        scanner.close();
+    }
+}
