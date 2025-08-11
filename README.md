@@ -10,10 +10,22 @@ A comprehensive collection of Java programs covering fundamental concepts throug
 └── ObjectOriented/             # Object-oriented programming examples
     ├── Objects/                # Basic object creation and class methods
     ├── Constructors/           # Constructor examples and object initialization
-    ├── StaticKeyWord/          # Static variables and methods
-    ├── ArrayOfObjects/         # Working with arrays containing objects
+    ├── GettersSetters/         # Encapsulation with getter/setter methods
     ├── Inheritance/            # Class inheritance and multi-level hierarchies
-    └── SuperKeyWord/           # Parent class access using super keyword
+    ├── Abstraction/            # Abstract classes and method implementation
+    ├── MethodsOverriding/      # Method overriding in inheritance hierarchies
+    ├── Interface/              # Interface implementation with Predator/Prey examples
+    ├── polymorphism/           # Compile-time polymorphism with Vehicle hierarchy
+    ├── RuntimePolymorphism/    # Dynamic method dispatch at runtime
+    ├── Aggregation/            # "Has-a" relationships with loose coupling
+    ├── Composition/            # "Part-of" relationships with strong coupling
+    ├── ArrayList/              # ArrayList collections and exercises
+    ├── ArrayOfObjects/         # Working with arrays containing objects
+    ├── StaticKeyWord/          # Static variables and methods
+    ├── SuperKeyWord/           # Parent class access using super keyword
+    ├── ToString/               # Object string representation methods
+    ├── WrapperClasses/         # Primitive wrapper classes and autoboxing
+    └── Exception/              # Exception handling concepts
 ```
 
 ## Topics Covered
@@ -53,9 +65,25 @@ A comprehensive collection of Java programs covering fundamental concepts throug
 - **Array Searching** (`Topics/SearchAnArray.java`) - Finding elements in arrays
 
 ### **Object-Oriented Programming**
-**Learning Objectives:** Understand classes, objects, and encapsulation principles
+**Learning Objectives:** Master all four pillars of OOP and advanced object-oriented concepts
+- **Classes & Objects** (`ObjectOriented/Objects/`) - Basic object creation and method calls
 - **Constructors** (`ObjectOriented/Constructors/`) - Object initialization and constructor overloading
-- **Classes & Objects** (`ObjectOriented/Constructors/student.java`) - Basic OOP concepts
+- **Encapsulation** (`ObjectOriented/GettersSetters/`) - Data protection with getter/setter methods and validation
+- **Inheritance** (`ObjectOriented/Inheritance/`) - Class hierarchies and "is-a" relationships
+- **Abstraction** (`ObjectOriented/Abstraction/`) - Abstract classes and method implementation
+- **Method Overriding** (`ObjectOriented/MethodsOverriding/`) - Subclass method redefinition
+- **Interfaces** (`ObjectOriented/Interface/`) - Contract-based programming with Predator/Prey examples
+- **Polymorphism** (`ObjectOriented/polymorphism/`) - Compile-time polymorphism with Vehicle hierarchy
+- **Runtime Polymorphism** (`ObjectOriented/RuntimePolymorphism/`) - Dynamic method dispatch
+- **Aggregation** (`ObjectOriented/Aggregation/`) - "Has-a" relationships with loose coupling (Library has Books)
+- **Composition** (`ObjectOriented/Composition/`) - "Part-of" relationships with strong coupling (Car has Engine)
+- **Static Members** (`ObjectOriented/StaticKeyWord/`) - Class-level variables and methods
+- **Super Keyword** (`ObjectOriented/SuperKeyWord/`) - Parent class access and method calls
+- **ToString Method** (`ObjectOriented/ToString/`) - Object string representation
+- **ArrayList Collections** (`ObjectOriented/ArrayList/`) - Dynamic arrays and collection operations
+- **Arrays of Objects** (`ObjectOriented/ArrayOfObjects/`) - Collections of custom objects
+- **Wrapper Classes** (`ObjectOriented/WrapperClasses/`) - Primitive wrapper classes and autoboxing
+- **Exception Handling** (`ObjectOriented/Exception/`) - Error handling and exception management
 
 ### **Utility Concepts**
 **Learning Objectives:** Work with randomization and understand practical programming tools
@@ -104,8 +132,18 @@ A comprehensive collection of Java programs covering fundamental concepts throug
 ### **Advanced**
 1. **2D Arrays**: `Topics/TwoDArrays.java` - Multi-dimensional data
 2. **Method Overloading**: `Topics/OverLoadedMethods.java` - Advanced method concepts
-3. **Object-Oriented Programming**: `ObjectOriented/Constructors/` - Classes and objects
-4. **Complex Projects**: Banking system, Battle simulator
+3. **Object-Oriented Programming**: `ObjectOriented/Objects/`, `ObjectOriented/Constructors/` - Classes, objects, and constructors
+4. **Encapsulation**: `ObjectOriented/GettersSetters/` - Data protection with getters/setters
+5. **Inheritance**: `ObjectOriented/Inheritance/` - Class hierarchies and relationships
+
+### **Expert (Advanced OOP)**
+1. **Abstraction**: `ObjectOriented/Abstraction/` - Abstract classes and methods
+2. **Interfaces**: `ObjectOriented/Interface/` - Contract-based programming
+3. **Polymorphism**: `ObjectOriented/polymorphism/`, `ObjectOriented/RuntimePolymorphism/` - Multiple forms of objects
+4. **Advanced Collections**: `ObjectOriented/ArrayList/`, `ObjectOriented/WrapperClasses/` - Dynamic arrays and autoboxing
+5. **Exception Handling**: `ObjectOriented/Exception/` - Error management and try-catch blocks
+6. **Aggregation & Composition**: `ObjectOriented/Aggregation/`, `ObjectOriented/Composition/` - Object relationships and coupling
+7. **Complex Projects**: Banking system, Battle simulator
 
 ### **Practice Projects (Apply Your Skills)**
 - Start with simple projects: `Projects/Calculator.java`, `Projects/TempConvert.java`
@@ -127,6 +165,13 @@ A comprehensive collection of Java programs covering fundamental concepts throug
 | `MadLibs.java` | Interactive story generator | String manipulation, user input, formatting |
 | `weightConvertor.java` | Weight conversion utility | Conditionals, mathematical operations, formatting |
 | `TempConvert.java` | Temperature conversion tool | Ternary operators, mathematical formulas |
+| `Cart.java` | Shopping cart simulation | Object management, collections, price calculations |
+| `ExponentialCal.java` | Exponential calculations utility | Mathematical operations, compound interest |
+| `GeoCal.java` | Geometry calculator with multiple shapes | Mathematical formulas, method overloading |
+| `MatrixGenerator.java` | Pattern and matrix printing | 2D arrays, nested loops, formatting |
+| `TelephoneNumPad.java` | Telephone keypad simulation | 2D arrays, user input, character mapping |
+| `Username.java` | Username validation system | String validation, conditional logic |
+| `diceroller.java` | Dice rolling simulation with ASCII art | Random generation, loops, formatting |
 
 ### **Topics Directory**
 | File | Description | Key Concepts |
